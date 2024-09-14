@@ -1,0 +1,22 @@
+cache:
+  key:
+    files:
+      - package.json
+  paths:
+    - node_modules/
+
+variables:
+  GIT_DEPTH: 0 # Consider changing this to a specific depth if full history is not needed
+
+stages:
+  - lint
+
+lint:
+  image: node:18-alpine # Example using a generic Node.js image, adjust as needed
+  stage: lint
+  before_script:
+    - npm install -g @angular/cli@17.3.3 # Install Angular CLI version matching your project
+    - npm install --legacy-peer-deps
+  script:
+    - npm run lint
+    - npm run build:prod

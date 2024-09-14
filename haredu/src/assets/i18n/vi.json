@@ -1,0 +1,240 @@
+{
+  "common": {
+    "ok": "Đồng ý",
+    "cancel": "Hủy",
+    "search": "Tìm kiếm {{text}}",
+    "customize": "Tùy chỉnh",
+    "activated": "Đã kích hoạt",
+    "notActivated": "Chưa kích hoạt",
+    "name": "Tên",
+    "mail": "Email",
+    "status": "Trạng thái",
+    "action": "Hành động",
+    "active": "Kích hoạt",
+    "deactive": "Vô hiệu",
+    "edit": "Chỉnh sửa",
+    "orders": "Đơn hàng",
+    "user": "Người dùng",
+    "server": "Máy chủ",
+    "timeZone": "Múi giờ",
+    "save": "Lưu",
+    "english": "Tiếng Anh",
+    "vietnamese": "Tiếng Việt",
+    "table": {
+      "paginate": {
+        "displayed-result": "Kết quả được hiển thị",
+        "info": "Hiển thị <strong>{{ from }}</strong> tới <strong>{{ to }}</strong> trong tổng số<strong>{{ TotalItem }}</strong>"
+      },
+      "header": {
+        "order": "Đơn hàng",
+        "item": "Mục",
+        "product": "Sản phẩm",
+        "customer": "Khách hàng",
+        "payment": "Thanh toán",
+        "tracking": "Theo dõi",
+        "processingDate": "Ngày xử lý",
+        "name": "Tên",
+        "email": "Email",
+        "status": "Trạng thái",
+        "date": "Ngày",
+        "merchant": "Người bán",
+        "revenue": "Doanh thu",
+        "purchaseOrder": "Đơn mua",
+        "tipReceived": "Tiền tip nhận",
+        "refund": "Hoàn trả",
+        "orderCost": "Chi phí đơn hàng",
+        "action": "Hành động"
+      }
+    },
+    "paypalExpress": "Paypal Express",
+    "creditCardProcessor": "Bộ xử lý thẻ tín dụng",
+    "prefixForOrderName": "Tiền tố cho tên đơn hàng",
+    "orderPrefix": "Tiền tố đơn hàng",
+    "create": "Tạo mới",
+    "update": "Cập nhật",
+    "delete": "Xóa",
+    "logout": "Đăng xuất",
+    "confirm": "Xác nhận",
+    "viewInfo": "Xem thông tin",
+    "phone": "Điện thoại",
+    "isAbandonedCheckout": "Đã bỏ giỏ hàng",
+    "date": "Ngày",
+    "merchant": "Người bán",
+    "product": "Sản phẩm",
+    "rememberMe": "Nhớ tôi",
+    "forgotPassword": "Quên mật khẩu{{sign}}",
+    "signUp": "Đăng ký"
+  },
+  "orderStatus": {
+    "all": "Tất cả",
+    "processing": "Đang xử lý",
+    "pending": "Chờ xử lý",
+    "canceled": "Đã hủy",
+    "fulfilled": "Hoàn thành",
+    "available": "Sẵn có",
+    "delivery": "Giao hàng"
+  },
+  "title": {
+    "dashboard": "Bảng điều khiển",
+    "overview": "Tổng quan",
+    "revenueReport": "Báo cáo doanh thu",
+    "aovReport": "Báo cáo AOV",
+    "orderReport": "Báo cáo đơn hàng",
+    "merchants": "Người bán",
+    "accountInfomation": "Thông tin tài khoản",
+    "serverInfomation": "Thông tin máy chủ"
+  },
+  "input": {
+    "placeholder": {
+      "email": "Nhập email của bạn",
+      "password": "Nhập mật khẩu của bạn",
+      "orderPrefix": "Nhập tiền tố đơn hàng",
+      "confirmPassword": "Nhập mật khẩu xác nhận",
+      "ownerMail": "Nhập email chủ sở hữu",
+      "ownerName": "Nhập tên chủ sở hữu",
+      "phone": "Nhập số điện thoại",
+      "serverIP": "Địa chỉ IP máy chủ",
+      "sendgridKey": "Khóa Sendgrid",
+      "zeroSSLKey": "Khóa Zero SSL",
+      "name": "Nhập tên",
+      "timeZone": "Nhập múi giờ"
+    },
+    "placeholder2": {
+      "email": "Nhập email",
+      "password": "Nhập mật khẩu"
+    },
+    "label": {
+      "email": "Email",
+      "password": "Mật khẩu",
+      "orderPrefix": "Tiền tố đơn hàng",
+      "confirmPassword": "Xác nhận mật khẩu",
+      "phone": "Điện thoại",
+      "ownerMail": "Email chủ sở hữu",
+      "ownerName": "Tên chủ sở hữu"
+    }
+  },
+  "fieldName": {},
+  "message": {},
+  "button": {
+    "signIn": "Đăng nhập",
+    "confirmChange": "Xác nhận thay đổi",
+    "disableFaCode": "Vô hiệu mã 2FA",
+    "activeFaCode": "Kích hoạt mã 2FA"
+  },
+  "menubar": {
+    "manageAdmin": "Quản lý quản trị",
+    "accountSetting": "Cài đặt tài khoản",
+    "dashboard": "Bảng điều khiển",
+    "analytic": "Phân tích",
+    "products": "Sản phẩm",
+    "orders": "Đơn hàng",
+    "users": "Người dùng",
+    "settings": "Cài đặt",
+    "general": "Chung",
+    "paymentMethods": "Phương thức thanh toán",
+    "payments": "Thanh toán",
+    "apps": "Ứng dụng",
+    "domains": "Miền",
+    "emails": "Emails",
+    "abandonMail": "Email bị bỏ quên",
+    "storefront": "Cửa hàng",
+    "shipping": "Vận chuyển",
+    "merchant": "Người bán",
+    "fulfillment": "Đáp ứng"
+  },
+  "screens": {
+    "auth": {
+      "logout": "Đăng xuất",
+      "accountSetting": "Cài đặt tài khoản",
+      "oldPassword": "Mật khẩu cũ",
+      "newPassword": "Mật khẩu mới",
+      "confirmNewPassword": "Xác nhận mật khẩu mới",
+      "2faAuthentication": "Xác thực 2FA",
+      "inputPasswordChange2FA": "Nhập mật khẩu của bạn để thay đổi mã 2FA của bạn",
+      "resetPassword": "Đặt lại mật khẩu",
+      "loginSuccess": "Đăng nhập thành công",
+      "login!": "Đăng nhập !",
+      "welcomeBackPleaseLogin": "Chào mừng trở lại! Vui lòng đăng nhập vào tài khoản của bạn.",
+      "dontHaveAccount": "Chưa có tài khoản?"
+    },
+    "dashboard": {
+      "totalRevenue": "Tổng doanh thu",
+      "orders": "Đơn hàng",
+      "aov": "AOV",
+      "profit": "Lợi nhuận",
+      "conversionRate": "Tỷ lệ chuyển đổi"
+    },
+    "merchant": {
+      "profile": "Hồ sơ",
+      "merchantName": "Tên người bán",
+      "merchantMail": "Email người bán",
+      "merchantOwner": "Chủ sở hữu người bán",
+      "merchantStatus": "Trạng thái người bán",
+      "addNew": "Thêm người bán mới",
+      "editProfile": "Chỉnh sửa hồ sơ"
+    },
+    "errorPage": {
+      "pageNotFound": "Không tìm thấy trang 🕵🏻‍♀️",
+      "urlNotFound": "Oops! 😖 Đường dẫn yêu cầu không được tìm thấy trên máy chủ này.",
+      "backToDashboard": "Quay lại bảng điều khiển"
+    },
+    "analytic": {
+      "salesOverTime": "Doanh số theo thời gian"
+    },
+    "settings": {
+      "serverIP": "Địa chỉ IP máy chủ",
+      "sendgridKey": "Khóa Sendgrid",
+      "zeroSSLKey": "Khóa Zero SSL"
+    },
+    "order": {
+      "order": "Đơn hàng"
+    }
+  },
+  "form": {
+    "validation": {
+      "oldPassword": "Mật khẩu cũ",
+      "newPassword": "Mật khẩu mới",
+      "confirmNewPassword": "Xác nhận mật khẩu mới",
+      "email": "Email",
+      "password": "Mật khẩu",
+      "orderPrefix": "Tiền tố đơn hàng",
+      "confirmPassword": "Xác nhận mật khẩu",
+      "ownerEmail": "Email chủ sở hữu",
+      "name": "Tên",
+      "phone": "Điện thoại"
+    },
+    "placeholder": {
+      "confirmNewPassword": "Nhập xác nhận mật khẩu mới của bạn",
+      "newPassword": "Nhập mật khẩu mới của bạn",
+      "password": "Nhập mật khẩu của bạn",
+      "passwordHere": "Nhập mật khẩu của bạn ở đây"
+    }
+  },
+  "validation": {
+    "password": "Vui lòng nhập từ 8 đến 30 ký tự bao gồm chữ và số, có ký tự viết hoa và viết thường.",
+    "length": "độ dài",
+    "require": "{{ controlName }} chưa được nhập!",
+    "error-input": "{{ controlName }} Có lỗi trong thông tin của bạn. Vui lòng nhập lại!",
+    "password-not-equal": "Mật khẩu mới không khớp. Vui lòng thử lại.",
+    "confirm-password-not-equal": "Mật khẩu không khớp. Vui lòng thử lại.",
+    "old-password-equal": "Mật khẩu hiện tại và mật khẩu mới của bạn giống nhau. Vui lòng sử dụng mật khẩu khác.",
+    "email": "Email không hợp lệ."
+  },
+  "toast": {
+    "success-message": "Thành công!",
+    "error-message": "Hiện đang xảy ra lỗi hệ thống. Vui lòng thử lại sau.",
+    "cannot-edit-messag": "Chỉnh sửa thành công.",
+    "create-success-message": "Tạo mới thành công.",
+    "cannot-edit-message": "Không thể chỉnh sửa bản ghi. Vui lòng kiểm tra lại.",
+    "changePasswordSuccess": "Thay đổi mật khẩu thành công.",
+    "changeStatusSuccess": "Thay đổi trạng thái thành công.",
+    "logoutSuccessful": "Đăng xuất thành công."
+  },
+  "wrong-password": "Sai mật khẩu",
+  "user-not-active": "Người dùng chưa kích hoạt",
+  "defaultErrorMessage": "Hiện đang xảy ra lỗi hệ thống. Vui lòng thử lại sau.",
+  "confirm": {
+    "changeStatus": "Bạn chắc chắn muốn thay đổi trạng thái của người dùng?",
+    "title": "Xác nhận hành động"
+  }
+}
